@@ -35,6 +35,7 @@ namespace Project01
         }
         static bool ImprovedLinearSearch(int[] array, int searchedValue)
         {
+
             int a = array.Length;
             int b = searchedValue;
             for (int i = 0; i < a; i++)
