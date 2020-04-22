@@ -58,7 +58,7 @@ namespace Project01
                     Console.WriteLine(array[i]);
                 }
                 else
-                {
+                { 
                     return false;
                 }
             }
