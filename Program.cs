@@ -63,7 +63,7 @@ namespace Project01
                 }
             }
             return true;
-        }
+        } 
 
         //Improved linear search with sentinel function
         private static bool ImprovedLinearSearchWithSentinel(int[] array, int searchedValue)
@@ -103,7 +103,7 @@ namespace Project01
             Console.WriteLine("which NUmber inside your array are you searching for?");
             int searchedValue = Convert.ToInt32(Console.ReadLine());
 
-            ImprovedLinearSearch(theCreatedArray, searchedValue);
+           // ImprovedLinearSearch(theCreatedArray, searchedValue);
         }
     }
 }
