@@ -39,7 +39,10 @@ namespace Project01
                 if (array[i] == b)
                 {
                     Console.WriteLine(i);
-                    return true;
+                }
+                else
+                {
+                    Console.WriteLine("the value you are searching for is not in the array!!!");
                 }
             }
             return true;
@@ -99,9 +102,9 @@ namespace Project01
 
             //implementing the array to generate the random array
             GenerateRandomArray(a);
-            int theCreatedArray = a;
             Console.WriteLine("which NUmber inside your array are you searching for?");
-            int searchedValue = Convert.ToInt32(Console.ReadLine());
+            int Svalue = Convert.ToInt32(Console.ReadLine());
+            
 
            // ImprovedLinearSearch(theCreatedArray, searchedValue);
         }
